@@ -1,0 +1,96 @@
+ <html>
+ <title>registration</title>
+ <head><style>
+   body {
+   
+     background-image:url('reg6.webp');
+	 background-size:cover;
+	 
+	 }
+	 h1 {
+	 
+	   color:green;
+	   text-align:center;
+	   margin-left:50;
+	   font-size:40;
+	   text-shadow: 2px 2px 4px #555555;
+		}
+div {
+	   align:center;
+	   border:3px solid green;
+	   border-shadow: 2px 2px 4px #555555
+	    margin-left:660px;
+        margin-right:20px;
+		padding:30px;
+	   }
+	   a:hover {
+	     color:green;
+		 }
+		
+	
+		
+	 
+ </style></head>
+ <body>
+ <h1><b>Registration for iHospital</b><img src="hossm.png"  height="50px" width="55px"></h1><hr><br>
+ <div><form action="sucess.html" target="_blank">
+ <fieldset>
+ <legend>provide patient details</legend>
+ <label for="pname">Patient full name:</label>
+ <label for="padd">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Patient Adress:</label></br>
+ <input type="text" id="pname" name="pdetail" placeholder="patient name" required >&nbsp &nbsp &nbsp
+ <input type="text" id="pad" name="pdetail" placeholder="patient address">&nbsp <input type="reset">  </br><hr>
+ <label for="Gen">Gender:</label><br>
+ <input type="radio" id="gen" name="pdetail" values="Male" required>
+ <label for="gen">Male</label>
+ <input type="radio" id="gen1" name="pdetail" values="Female" required>
+ <label for="gen1">Female</label>
+ <input type="radio" id="gen2" name="pdetail" values="Others" required>
+ <label for="gen2">Others</label><br><hr>
+ <label fpr="age">Age:</label>&nbsp &nbsp 
+ <input type="number" id="age" name="pdetail" max="100" min="1" required><br><hr>
+  <label for="pnum">Contact number:</label>
+ <input type="text" id="pnum" name="pdetail" placeholder="+91........." required><br><hr>
+ <label for="pdiag">Diagnosis: &nbsp &nbsp &nbsp &nbsp &nbsp </label>
+ <input type="text" id="pdiag" name="pdetail" placeholder="eg.stomach"required><br><hr>
+ 
+ <p>Blood Group:</p>
+ <input type="checkbox" id="blood" name="pdetail" >
+ <label for="blood">A</label>
+ <input type="checkbox" id="blood1" name="pdetail" >
+ <label for="blood1">A+</label>
+ <input type="checkbox" id="blood2" name="pdetail">
+ <label for="blood2">O</label>
+  <input type="checkbox" id="blood3" name="pdetail">
+ <label for="blood3">O+</label><br><hr>
+ 
+ 
+ 
+ <label for="doc">Under Doctor:</label>&nbsp &nbsp
+        <input list="doctors" name="pdetails">
+        <datalist id="doctors">
+		<option value="Dr.krishna">
+		<option value="Dr.hema">
+		<option value="Dr.ganesh">
+		<option value="Dr.rahul">
+		</datalist><br><hr>
+<label for="Admit_date">Admit Date:</label>&nbsp &nbsp &nbsp &nbsp
+<input type="datetime-local" id="Admit_date">&nbsp &nbsp<input type="reset"><br><br>
+<label for="rno">Room no:</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<input type="text" id="rno" name="pdetail"><br><hr>
+<input type="radio" id="conf" name="pdetail" values="Yes" required>
+<label for="conf">I Agree above detail are true</label><br><br>
+<label for="signature">Signature:</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<textarea id="signature" row="8" column="5">
+</textarea><br><hr>&nbsp &nbsp
+<a href="form1.html" target="_blank"> Need help ?</a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<input type="reset">&nbsp &nbsp
+<input type="submit" values="submit">
+
+
+
+		</fieldset></div></form>
+ 
+ 
+ 
+</body></html>
